@@ -1,0 +1,91 @@
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 50px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.intro-section {
+  background: url('cover-image.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.intro-content h1 {
+  font-size: 48px;
+}
+
+.intro-content p {
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.features-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.feature {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+}
+
+.feature img {
+  width: 100px;
+  height: 100px;
+}
+
+.about-section {
+  background-color: #f4f4f4;
+  padding: 50px;
+  text-align: center;
+}
+
+.about-section p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
